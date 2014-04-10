@@ -24,7 +24,7 @@ It takes care to merge both the default options (`js`) and the custom options (`
 - **Underscore.js**: Wonderful library that helps a lot to manage `arrays` and `collections` in `javascript`. http://underscorejs.org/
 - **Objects merger**: Merge objects. Priority to the last object. (Erase values if same keys) https://github.com/Vadorequest/javascript-helpers/blob/master/object-merger/object_merge.js
 
-# Features
+# Utilities
 
 - **Namespace**: The default chosen namespace is `date`, because it's the one used by the `bootstrap-datepicker` plugin. This means that all data attributes will be contained in `data-date` namespace to avoid conflicts.
 - **Case**: The case of the options doesn't matter since we `toLowerCase()` the keys, it's not possible to have html5 data attribute element with an upper character. (*but it's possible to have a key with it*)
@@ -35,7 +35,7 @@ Basically the script contains all `data-attribute` in an `javascript` object wit
 
 # Customize
 
-Of course, this helper could not fill entirely your needs, don't hesitate to customize it for your application. *If you think that youre changes are useful, please share/discuss/PR. 
+Of course, this helper could not fill entirely your needs, don't hesitate to customize it for your application. *If you think that youre changes are useful, please share/discuss/PR.*
 
 # Contributing
 

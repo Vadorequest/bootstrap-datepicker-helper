@@ -24,6 +24,9 @@ It takes care to merge both the default options (`js`) and the custom options (`
 - **Underscore.js**: Wonderful library that helps a lot to manage `arrays` and `collections` in `javascript`. http://underscorejs.org/
 - **Objects merger**: Merge objects. Priority to the last object. (Erase values if same keys) https://github.com/Vadorequest/javascript-helpers/blob/master/object-merger/object_merge.js
 
+# Installation
+1. Import the script. **Must*** be imported after `underscore.js`, `object-merge.js` and `bootstrap-datepicker`.
+
 # Utilities
 
 - **Namespace**: The default chosen namespace is `date`, because it's the one used by the `bootstrap-datepicker` plugin. This means that all data attributes will be contained in `data-date` namespace to avoid conflicts.
